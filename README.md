@@ -5,6 +5,8 @@ Rajan Vadhavana : rajanvadhavana02@gmail.com (Frotnend & Backend)<br>
 Karmit Langhnoda : karmitlanghnoda22102005@gmail.com (Backend & ML)<br>
 Anas Multani : anasmultani930@gmail.com (Generative AI)<br>
 
+DEMO VIDEO :- https://drive.google.com/file/d/1f12hs9qp07_Wvbau-AY2TqEKZVogVmeN/view
+
 # ☀️ Solar Inverter Failure Prediction & Intelligence Platform
 
 Predict solar inverter failures **7--10 days before they happen** using
