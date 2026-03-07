@@ -372,8 +372,9 @@ We evaluate the model using:
 
 These metrics measure the model's ability to detect failures early.
 
-![Confusion Matrix](confusion-matrix.jpeg)
 ![Cross Validation Dashboard](cross-validation-dashboard.jpeg)
+![Confusion Matrix](confusion-matrix.jpeg)
+
 
 ------------------------------------------------------------------------
 
@@ -474,7 +475,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 # 🛠 Tech Stack
 
-Backend: Python, FastAPI\
+Backend: Node.js, Express.js, Python, FastAPI\
 Machine Learning: PyTorch, Scikit-learn\
 Data Processing: Pandas, NumPy\
 Database: MongoDB\
