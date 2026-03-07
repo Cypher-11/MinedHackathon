@@ -1,9 +1,9 @@
 ## Contributor
-Dhyey Upadhyay : dhyeyupadhyay19@gmail.com (Frontend & Backend)
-Divyansh Gandhi : gandhidivyansh2@gmail.com (Feature Engineering, Dataset Cleaning, ML)
-Rajan Vadhavana : rajanvadhavana02@gmail.com (Frotnend & Backend)
-Karmit Langhnoda : karmitlanghnoda22102005@gmail.com (Backend & ML)
-Anas Multani : anasmultani930@gmail.com (Generative AI)
+Dhyey Upadhyay : dhyeyupadhyay19@gmail.com (Frontend & Backend) <br>
+Divyansh Gandhi : gandhidivyansh2@gmail.com (Feature Engineering, Dataset Cleaning, ML) <br>
+Rajan Vadhavana : rajanvadhavana02@gmail.com (Frotnend & Backend)<br>
+Karmit Langhnoda : karmitlanghnoda22102005@gmail.com (Backend & ML)<br>
+Anas Multani : anasmultani930@gmail.com (Generative AI)<br>
 
 # ☀️ Solar Inverter Failure Prediction & Intelligence Platform
 
@@ -263,6 +263,9 @@ We use an **LSTM neural network** for time-series prediction.
 Why LSTM?
 
 Because inverter performance depends on **temporal patterns over time.**
+
+# Precision & Accuracy 
+![Project Screenshot](images/acc.png)
 
 ------------------------------------------------------------------------
 
