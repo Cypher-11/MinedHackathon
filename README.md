@@ -264,9 +264,6 @@ Why LSTM?
 
 Because inverter performance depends on **temporal patterns over time.**
 
-# Precision & Accuracy 
-![Project Screenshot](images/acc.png)
-
 ------------------------------------------------------------------------
 
 # 🧠 Model Architecture
@@ -374,6 +371,9 @@ We evaluate the model using:
 -   F1 Score
 
 These metrics measure the model's ability to detect failures early.
+
+![Confusion Matrix](confusion-matrix.jpeg)
+![Cross Validation Dashboard](cross-validation-dashboard.jpeg)
 
 ------------------------------------------------------------------------
 
