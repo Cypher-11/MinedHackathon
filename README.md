@@ -1,3 +1,10 @@
+## Contributor
+Dhyey Upadhyay : dhyeyupadhyay19@gmail.com (Frontend & Backend)
+Divyansh Gandhi : gandhidivyansh2@gmail.com (Feature Engineering, Dataset Cleaning, ML)
+Rajan Vadhavana : rajanvadhavana02@gmail.com (Frotnend & Backend)
+Karmit Langhnoda : karmitlanghnoda22102005@gmail.com (Backend & ML)
+Anas Multani : anasmultani930@gmail.com (Generative AI)
+
 # ☀️ Solar Inverter Failure Prediction & Intelligence Platform
 
 Predict solar inverter failures **7--10 days before they happen** using
