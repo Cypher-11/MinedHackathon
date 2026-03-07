@@ -1,0 +1,7 @@
+pandas
+chromadb
+google-generativeai
+fastapi
+uvicorn
+streamlit
+python-dotenv
