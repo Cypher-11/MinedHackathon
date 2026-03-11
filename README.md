@@ -7,7 +7,7 @@ Anas Multani : anasmultani930@gmail.com (Generative AI)<br>
 
 DEMO VIDEO :- https://drive.google.com/file/d/1f12hs9qp07_Wvbau-AY2TqEKZVogVmeN/view
 
-# ☀️ Solar Inverter Failure Prediction & Intelligence Platform
+#  Solar Inverter Failure Prediction & Intelligence Platform
 
 Predict solar inverter failures **7--10 days before they happen** using
 machine learning and automated maintenance workflows.
@@ -21,7 +21,7 @@ and automate plant maintenance operations.**
 
 ------------------------------------------------------------------------
 
-# 🚨 Problem Statement
+#  Problem Statement
 
 Solar plants operate hundreds of inverters that must run continuously.
 
@@ -40,7 +40,7 @@ Our system solves this with **AI-based predictive maintenance.**
 
 ------------------------------------------------------------------------
 
-# 💡 Solution Overview
+#  Solution Overview
 
 We built a **Smart Solar Predictive Maintenance Platform.**
 
@@ -58,7 +58,7 @@ This enables **early intervention before inverter failures occur.**
 
 ------------------------------------------------------------------------
 
-# 🏗 System Architecture
+# System Architecture
 
 The architecture contains four layers.
 
@@ -103,7 +103,7 @@ Each role sees only relevant tasks and alerts.
 
 ------------------------------------------------------------------------
 
-# 🔄 System Workflow
+#  System Workflow
 
 1.  Solar inverters send telemetry data\
 2.  Backend receives data through API\
@@ -115,7 +115,7 @@ Each role sees only relevant tasks and alerts.
 
 ------------------------------------------------------------------------
 
-# 📊 Dataset Description
+#  Dataset Description
 
 We collected raw telemetry data from **three different solar plants.**
 
@@ -145,7 +145,7 @@ not contain labels.**
 
 ------------------------------------------------------------------------
 
-# 🧹 Data Preprocessing
+#  Data Preprocessing
 
 ## Wide → Long Transformation
 
@@ -165,7 +165,7 @@ This allows us to analyze **each inverter individually over time.**
 
 ------------------------------------------------------------------------
 
-# ⚡ SMU String Feature Engineering
+#  SMU String Feature Engineering
 
 SMU strings represent electrical output from panel strings.
 
@@ -189,7 +189,7 @@ This helps detect:
 
 ------------------------------------------------------------------------
 
-# 🧬 Unified Data Schema
+#  Unified Data Schema
 
 Each plant had different sensors.
 
@@ -207,7 +207,7 @@ Missing values were handled appropriately.
 
 ------------------------------------------------------------------------
 
-# ⚙️ Feature Engineering
+#  Feature Engineering
 
 Additional features created:
 
@@ -234,7 +234,7 @@ Extracted from timestamps:
 
 ------------------------------------------------------------------------
 
-# 🏷 Label Creation
+#  Label Creation
 
 Original datasets **had no labels.**
 
@@ -258,7 +258,7 @@ This allows the model to **learn patterns that appear before failures.**
 
 ------------------------------------------------------------------------
 
-# 🤖 Machine Learning Model
+#  Machine Learning Model
 
 We use an **LSTM neural network** for time-series prediction.
 
@@ -268,7 +268,7 @@ Because inverter performance depends on **temporal patterns over time.**
 
 ------------------------------------------------------------------------
 
-# 🧠 Model Architecture
+# Model Architecture
 
 Input → LSTM → Dense layers → Failure probability
 
@@ -287,7 +287,7 @@ Input → LSTM → Dense layers → Failure probability
 
 ------------------------------------------------------------------------
 
-# 📈 Input Features
+# Input Features
 
     power
     efficiency
@@ -310,7 +310,7 @@ Target variable:
 
 ------------------------------------------------------------------------
 
-# ⏱ Sequence Generation
+#  Sequence Generation
 
 Each training sample represents a **time window of inverter behavior.**
 
@@ -323,7 +323,7 @@ failures.**
 
 ------------------------------------------------------------------------
 
-# 🔢 Data Scaling
+#  Data Scaling
 
 We apply feature normalization using:
 
@@ -333,7 +333,7 @@ This improves neural network training stability.
 
 ------------------------------------------------------------------------
 
-# 🔁 Cross Validation
+# Cross Validation
 
 We implemented **Stratified K-Fold Cross Validation.**
 
@@ -343,7 +343,7 @@ This ensures balanced failure distribution across folds.
 
 ------------------------------------------------------------------------
 
-# 🏋️ Training Process
+#  Training Process
 
 For each fold:
 
@@ -363,7 +363,7 @@ Optimizer:
 
 ------------------------------------------------------------------------
 
-# 📊 Evaluation Metrics
+#  Evaluation Metrics
 
 We evaluate the model using:
 
@@ -380,7 +380,7 @@ These metrics measure the model's ability to detect failures early.
 
 ------------------------------------------------------------------------
 
-# ⚠️ Model Output
+#  Model Output
 
 The model outputs:
 
@@ -394,7 +394,7 @@ This triggers a **maintenance ticket.**
 
 ------------------------------------------------------------------------
 
-# 🎫 Ticket Automation System
+#  Ticket Automation System
 
 Based on ML predictions:
 
@@ -412,7 +412,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# 👥 Role-Based Dashboards
+#  Role-Based Dashboards
 
 ## Manager
 
@@ -432,7 +432,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# ⭐ Key Features
+# Key Features
 
 -   AI-based solar inverter failure prediction
 -   Predict failures **7 days in advance**
@@ -443,7 +443,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# 📉 Benefits
+# Benefits
 
 -   Reduced inverter downtime
 -   Improved solar plant efficiency
@@ -453,7 +453,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# ▶️ Running the ML Model
+#  Running the ML Model
 
 ## Install Dependencies
 
@@ -465,7 +465,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 -   Real-time IoT streaming
 -   Explainable AI for root-cause analysis
@@ -475,7 +475,7 @@ Ticket assigned to **Repair / Maintenance Engineer**
 
 ------------------------------------------------------------------------
 
-# 🛠 Tech Stack
+# Tech Stack
 
 Backend: Node.js, Express.js, Python, FastAPI\
 Machine Learning: PyTorch, Scikit-learn\
@@ -485,7 +485,7 @@ Frontend: React
 
 ------------------------------------------------------------------------
 
-# 🏆 Hackathon Project
+#  Hackathon Project
 
 **Solar Inverter Failure Prediction & Intelligence Platform**
 
